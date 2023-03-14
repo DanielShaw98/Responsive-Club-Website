@@ -1,0 +1,152 @@
+/* Page Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header & Footer Settings */
+
+nav {
+    width: 100%;
+    background-color: #46c2cb;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f7a1;
+    padding: 1rem;
+    background-color: #46c2cb;
+}
+
+a:hover {
+    color: #6D67E4;
+    font-size: 1.05rem;
+}
+
+/* Title Settings */
+
+.title {
+    background-color: #453C67;
+    padding: 6rem;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    color:#f2f7a1;
+}
+
+/* Intro Settings */
+
+.intro {
+    background-color: #6D67E4;
+    padding: 4rem;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #f2f7a1;
+    padding-left: 2rem;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: #f2f7a1;
+    padding-left: 2rem;
+}
+
+/* Running Settings */
+
+.running {
+    background-color: #453C67;
+    padding: 2rem;
+}
+
+.runningcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.runningcontainer img {
+    width: 30rem;
+    height: auto;
+    padding: 2rem;
+}
+
+@media only screen and (min-width: 90rem) {
+    .runningcontainer img {
+        width: 40rem;
+        height: auto;
+    }
+}
+
+/* Quote Settings */
+
+.quote {
+    background-color: #6D67E4;
+    padding: 4rem;
+}
+
+.quote h3 {
+    color: #f2f7a1;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.quote p {
+    color: #f2f7a1;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+/* Social Settings */
+
+.social {
+    background-color: #453C67;
+    padding: 2rem;
+}
+
+.socialcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.socialcontainer img {
+    width: 30rem;
+    height: auto;
+    padding: 2rem;
+}
+
+@media only screen and (min-width: 90rem) {
+    .socialcontainer img {
+        width: 40rem;
+        height: auto;
+    }
+}
+
+/* Meet Settings */
+
+.meet {
+    background-color: #6D67E4;
+    padding: 2rem;
+}
+
+.meet img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.meet figcaption {
+    font-size: 1.25rem;
+    color: #f2f7a1;
+    text-align: center;
+}
